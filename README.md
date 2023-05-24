@@ -64,7 +64,6 @@ Send a POST request to /api/register/ with the following payload:
 
 Send a POST request to /api/token/ with the following payload:
 ```json
-Copy code
 {
   "username": "your_username",
   "password": "your_password"
@@ -72,7 +71,6 @@ Copy code
 ```
 The response will include a JWT token:
 ```json
-Copy code
 {
   "access": "your_access_token",
   "refresh": "your_refresh_token"
